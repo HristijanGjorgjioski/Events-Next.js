@@ -1,7 +1,7 @@
 const FilteredEventsPage = () => {
     return (
         <div>
-            FilteredEventsPage
+            Filtered Events Page
         </div>
     )
 }

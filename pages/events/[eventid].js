@@ -1,9 +1,9 @@
-const SpecificEventPage = () => {
+const EventDetailPage = () => {
     return (
         <div>
-            SpecificEventPage
+            Event Detail Page
         </div>
     )
 }
 
-export default SpecificEventPage
+export default EventDetailPage
