@@ -6,7 +6,7 @@ import classes from './main-header.module.css';
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <Link href='/'>
+      <Link className={classes.logo} href='/'>
         <a>
           <Logo />
         </a>
