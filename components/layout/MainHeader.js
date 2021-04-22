@@ -1,23 +1,17 @@
 import Link from 'next/link';
 
-import Logo from './Logo';
 import classes from './main-header.module.css';
 
-const MainNavigation = () => {
+function MainHeader() {
   return (
     <header className={classes.header}>
-      <Link className={classes.logo} href='/'>
-        <a>
-          <Logo />
-        </a>
-      </Link>
-      <nav>
+      <div className={classes.logo}>
+        <Link href='/'>NextEvents</Link>
+      </div>
+      <nav className={classes.navigation}>
         <ul>
           <li>
-            <Link href='/posts'>Posts</Link>
-          </li>
-          <li>
-            <Link href='/contact'>Contact</Link>
+            <Link href='/events'>Browse All Events</Link>
           </li>
         </ul>
       </nav>
@@ -25,4 +19,4 @@ const MainNavigation = () => {
   );
 }
 
-export default MainNavigation;
+export default MainHeader;
