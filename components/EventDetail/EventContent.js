@@ -6,6 +6,6 @@ function EventContent(props) {
       {props.children}
     </section>
   );
-}
+};
 
 export default EventContent;

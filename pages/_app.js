@@ -8,10 +8,11 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <title>Events Next.js</title>
       </Head>
       <Component {...pageProps} />
     </Layout>
   );
-}
+};
 
 export default MyApp;
